@@ -1,13 +1,4 @@
-<!-- Chosen Palette: Custom Calm Palette (#FAF8F5, #4A4A4A, #5F9EA0, #E1C699) -->
-<!-- Application Structure Plan: The SPA is structured around the five core "pillars" from the source report, implemented using an interactive tab-based navigation system. This design was chosen to break down the dense information into manageable, thematic sections, preventing user overload and encouraging focused exploration. The user flow is: 1) Land on a welcoming intro page. 2) Use the main navigation tabs to select a "pillar." 3) Interact with charts and concise text within the selected pillar's content area. 4) Conclude with actionable recommendations. This structure provides a clear, intuitive path through the report's key concepts. -->
-<!-- Visualization & Content Choices: 
-- Intro (Statistic): Goal: Inform -> Viz: Large HTML/CSS text -> Interaction: None -> Justification: High-impact hook to engage the user immediately.
-- Pillar 1 (Mente-Cuerpo): Goal: Inform -> Viz: Donut Charts (Sleep, Exercise), Pie Chart (Nutrition) -> Interaction: Hover tooltips -> Justification: Quantifies recommendations, making abstract goals (e.g., "get enough sleep") concrete and visual. Library: Chart.js/Canvas.
-- Pillar 2 (Estrés): Goal: Compare -> Viz: Horizontal Bar Chart -> Interaction: Hover tooltips -> Justification: Clearly compares various stressors, with horizontal orientation for label readability. Library: Chart.js/Canvas.
-- Pillar 3 (Conexión Social): Goal: Organize -> Viz: HTML/CSS Flowchart -> Interaction: Hover effects -> Justification: Illustrates a process flow effectively without violating the NO SVG/Mermaid constraint. Method: Styled HTML divs.
-- Pillar 4 (Propósito): Goal: Compare -> Viz: Vertical Bar Chart -> Interaction: Hover tooltips -> Justification: Compares the positive impacts of hobbies, showing their relative benefits. Library: Chart.js/Canvas.
-- Pillar 5 (Ayuda Profesional): Goal: Inform/Organize -> Viz: HTML/CSS Checklist -> Interaction: Hover effects -> Justification: The clearest, most direct way to present critical warning signs. Method: Styled HTML list.
--->
+
 <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
 <!DOCTYPE html>
 <html lang="es" class="scroll-smooth">
